@@ -1,0 +1,10 @@
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Home.resources
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\WinterOS\Desktop\Codigos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

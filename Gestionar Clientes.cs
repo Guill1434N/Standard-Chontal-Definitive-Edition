@@ -26,16 +26,19 @@ namespace WindowsFormsApp1
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             // validamos que no este vacio el nommbre (minimo esto)
-            if ((label.Text.Trim() == ""))
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text))
             {
                 MessageBox.Show("El nombre no puede ir vacio");
                 label.Focus();
+
+                if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text)) ;
+
                 return;
 
             }
 
             //Agregamos los datos de la tabla
-            dgvClientes.Rows.Add(txtNombre.Text.Trim(), txtTelefono.Text.Trim(), cmbCategoria.Text, DateTime.Now.ToString("add/MM/yyyy"));
+            dgvClientes.Rows.Add(txtNombre.Text.Trim(), txtTelefono.Text.Trim(), cmbCategoria.Text, DateTime.Now.ToString("dd/MM/yyyy"));
 
             //Limpiar para el siguiente cliente
             LimpiarFormulario();

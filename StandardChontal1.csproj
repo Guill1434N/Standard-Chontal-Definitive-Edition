@@ -64,6 +64,12 @@
     <Compile Include="Editar Usuario.Designer.cs">
       <DependentUpon>Editar Usuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion de Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de Compras.Designer.cs">
+      <DependentUpon>Gestion de Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion de Productos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,18 @@
     </Compile>
     <Compile Include="Gestion de Usuarios.Designer.cs">
       <DependentUpon>Gestion de Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion de Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion de Ventas.Designer.cs">
+      <DependentUpon>Gestion de Ventas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestionar Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestionar Clientes.Designer.cs">
+      <DependentUpon>Gestionar Clientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestionar Proveedores.cs">
       <SubType>Form</SubType>
@@ -126,6 +144,12 @@
     <Compile Include="Recuperacion.Designer.cs">
       <DependentUpon>Recuperacion.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Gestion de Ventas.resx">
+      <DependentUpon>Gestion de Ventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestionar Proveedores.resx">
+      <DependentUpon>Gestionar Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>

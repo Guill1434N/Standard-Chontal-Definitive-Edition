@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\WinterOS\\Desktop\\Codigos\\WindowsFormsApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|WindowsFormsApp1.csproj|c:\\users\\winteros\\desktop\\codigos\\windowsformsapp1\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|WindowsFormsApp1.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\winteros\\desktop\\tareas\\standard-chontal-definitive-edition\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\winteros\\desktop\\tareas\\standard-chontal-definitive-edition\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\winteros\\desktop\\tareas\\standard-chontal-definitive-edition\\gestion de ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:gestion de ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\winteros\\desktop\\tareas\\standard-chontal-definitive-edition\\gestionar proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:gestionar proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\winteros\\desktop\\tareas\\standard-chontal-definitive-edition\\gestion de ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:gestion de ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Home.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Home.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T20:05:19.312Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Codigos\\WindowsFormsApp1\\Home.cs",
-              "RelativeDocumentMoniker": "Home.cs",
-              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Codigos\\WindowsFormsApp1\\Home.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Home.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "Gestionar Proveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestionar Proveedores.cs",
+              "RelativeDocumentMoniker": "Gestionar Proveedores.cs",
+              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestionar Proveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestionar Proveedores.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T16:53:16.486Z",
+              "WhenOpened": "2026-03-29T01:40:30.236Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gestion de Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestion de Ventas.cs",
+              "RelativeDocumentMoniker": "Gestion de Ventas.cs",
+              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestion de Ventas.cs",
+              "RelativeToolTip": "Gestion de Ventas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:20:06.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gestion de Ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestion de Ventas.cs",
+              "RelativeDocumentMoniker": "Gestion de Ventas.cs",
+              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Gestion de Ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion de Ventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T01:20:03.419Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\WinterOS\\Desktop\\Tareas\\Standard-Chontal-Definitive-Edition\\Home.cs*",
+              "RelativeToolTip": "Home.cs*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAjwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T22:47:47.917Z",
+              "EditorCaption": ""
             }
           ]
         }

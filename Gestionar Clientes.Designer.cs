@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Gestionar_Proveedores
+    partial class Gestionar_Clientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Gestionar_Proveedores
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Gestionar_Proveedores";
-            this.Text = "Gestionar_Proveedores";
-            this.Load += new System.EventHandler(this.Gestionar_Proveedores_Load);
-            this.ResumeLayout(false);
-
+            this.Text = "Gestionar_Clientes";
         }
 
         #endregion

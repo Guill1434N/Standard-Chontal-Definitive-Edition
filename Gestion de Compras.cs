@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Gestionar_Proveedores : Form
+    public partial class Gestion_de_Compras : Form
     {
-        public Gestionar_Proveedores()
+        public Gestion_de_Compras()
         {
             InitializeComponent();
-        }
-
-        private void Gestionar_Proveedores_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -54,9 +54,26 @@ namespace WindowsFormsApp1
 
             }
 
-            
-                
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //solo permite letras, espacios y letras 
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = true; // "Bloquea" el número si intentan escribirlo
+                MessageBox.Show("Bro, en el nombre solo van letras.", "Atención");
             }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //solo permite numeros
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // "Bloquea" la letra si intentan escribirla
+                MessageBox.Show("Aquí solo van números, bro.", "Atención");
+            }
+        }
+    }
         }
     
 

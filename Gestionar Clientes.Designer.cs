@@ -58,6 +58,7 @@
             // label
             // 
             this.label.AutoSize = true;
+            this.label.BackColor = System.Drawing.Color.Cyan;
             this.label.Location = new System.Drawing.Point(40, 69);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(81, 28);
@@ -67,6 +68,7 @@
             // LabelTelefono
             // 
             this.LabelTelefono.AutoSize = true;
+            this.LabelTelefono.BackColor = System.Drawing.Color.Cyan;
             this.LabelTelefono.Location = new System.Drawing.Point(39, 113);
             this.LabelTelefono.Name = "LabelTelefono";
             this.LabelTelefono.Size = new System.Drawing.Size(82, 28);
@@ -76,6 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Cyan;
             this.label2.Location = new System.Drawing.Point(40, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 28);
@@ -97,24 +100,26 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackColor = System.Drawing.Color.Lime;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.Location = new System.Drawing.Point(29, 226);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(92, 28);
             this.btnGuardar.TabIndex = 5;
             this.btnGuardar.Text = "Registrar Cliente";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.Lime;
             this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.Location = new System.Drawing.Point(139, 226);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(89, 27);
             this.btnLimpiar.TabIndex = 6;
             this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
             // 
             // dgvClientes
             // 
@@ -156,6 +161,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 34);
             this.txtNombre.TabIndex = 8;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // txtTelefono
             // 
@@ -163,6 +169,7 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 34);
             this.txtTelefono.TabIndex = 9;
+            this.txtTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefono_KeyPress);
             // 
             // Gestionar_Clientes
             // 

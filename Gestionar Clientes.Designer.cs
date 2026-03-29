@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.LabelTelefono = new System.Windows.Forms.Label();
@@ -48,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(117, 9);
+            this.label1.Location = new System.Drawing.Point(106, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 28);
@@ -59,7 +61,7 @@
             // 
             this.label.AutoSize = true;
             this.label.BackColor = System.Drawing.Color.Cyan;
-            this.label.Location = new System.Drawing.Point(40, 69);
+            this.label.Location = new System.Drawing.Point(24, 54);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(81, 28);
             this.label.TabIndex = 1;
@@ -69,7 +71,7 @@
             // 
             this.LabelTelefono.AutoSize = true;
             this.LabelTelefono.BackColor = System.Drawing.Color.Cyan;
-            this.LabelTelefono.Location = new System.Drawing.Point(39, 113);
+            this.LabelTelefono.Location = new System.Drawing.Point(24, 101);
             this.LabelTelefono.Name = "LabelTelefono";
             this.LabelTelefono.Size = new System.Drawing.Size(82, 28);
             this.LabelTelefono.TabIndex = 2;
@@ -79,7 +81,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Cyan;
-            this.label2.Location = new System.Drawing.Point(40, 159);
+            this.label2.Location = new System.Drawing.Point(12, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 28);
             this.label2.TabIndex = 3;
@@ -93,7 +95,7 @@
             "General",
             "VIP",
             "Mayorista"});
-            this.cmbCategoria.Location = new System.Drawing.Point(139, 159);
+            this.cmbCategoria.Location = new System.Drawing.Point(122, 143);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(121, 36);
             this.cmbCategoria.TabIndex = 4;
@@ -102,7 +104,7 @@
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.Lime;
             this.btnGuardar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(29, 226);
+            this.btnGuardar.Location = new System.Drawing.Point(17, 212);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(92, 28);
             this.btnGuardar.TabIndex = 5;
@@ -114,7 +116,7 @@
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.Lime;
             this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(139, 226);
+            this.btnLimpiar.Location = new System.Drawing.Point(123, 212);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(89, 27);
             this.btnLimpiar.TabIndex = 6;
@@ -123,41 +125,63 @@
             // 
             // dgvClientes
             // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.GhostWhite;
+            this.dgvClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvClientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvClientes.BackgroundColor = System.Drawing.Color.White;
+            this.dgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvClientes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colNombre,
             this.colCelular,
             this.colTipo,
             this.colFecha});
-            this.dgvClientes.Location = new System.Drawing.Point(266, 54);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvClientes.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvClientes.EnableHeadersVisualStyles = false;
+            this.dgvClientes.GridColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dgvClientes.Location = new System.Drawing.Point(249, 54);
+            this.dgvClientes.MultiSelect = false;
             this.dgvClientes.Name = "dgvClientes";
-            this.dgvClientes.Size = new System.Drawing.Size(282, 150);
+            this.dgvClientes.ReadOnly = true;
+            this.dgvClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvClientes.Size = new System.Drawing.Size(731, 233);
             this.dgvClientes.TabIndex = 7;
             // 
             // colNombre
             // 
             this.colNombre.HeaderText = "Nombre";
             this.colNombre.Name = "colNombre";
+            this.colNombre.ReadOnly = true;
             // 
             // colCelular
             // 
             this.colCelular.HeaderText = "Celular";
             this.colCelular.Name = "colCelular";
+            this.colCelular.ReadOnly = true;
             // 
             // colTipo
             // 
             this.colTipo.HeaderText = "Tipo";
             this.colTipo.Name = "colTipo";
+            this.colTipo.ReadOnly = true;
             // 
             // colFecha
             // 
             this.colFecha.HeaderText = "Fecha";
             this.colFecha.Name = "colFecha";
+            this.colFecha.ReadOnly = true;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(127, 69);
+            this.txtNombre.Location = new System.Drawing.Point(111, 54);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 34);
             this.txtNombre.TabIndex = 8;
@@ -165,7 +189,8 @@
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(139, 120);
+            this.txtTelefono.Location = new System.Drawing.Point(112, 98);
+            this.txtTelefono.MaxLength = 8;
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 34);
             this.txtTelefono.TabIndex = 9;
@@ -191,6 +216,7 @@
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Gestionar_Clientes";
             this.Text = "Panel de Gestion de Clientes";
+            this.Load += new System.EventHandler(this.Gestionar_Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

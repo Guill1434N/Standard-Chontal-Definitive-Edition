@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
             }
 
             //Agregamos los datos de la tabla
-            dgvClientes.Rows.Add(label.Text.Trim(), LabelTelefono.Text.Trim(), cmbCategoria.Text, DateTime.Now.ToString("add/MM/yyyy"));
+            dgvClientes.Rows.Add(txtNombre.Text.Trim(), txtTelefono.Text.Trim(), cmbCategoria.Text, DateTime.Now.ToString("add/MM/yyyy"));
 
             //Limpiar para el siguiente cliente
             LimpiarFormulario();
@@ -72,6 +72,11 @@ namespace WindowsFormsApp1
                 e.Handled = true; // "Bloquea" la letra si intentan escribirla
                 MessageBox.Show("Aquí solo van números, bro.", "Atención");
             }
+        }
+
+        private void Gestionar_Clientes_Load(object sender, EventArgs e)
+        {
+
         }
     }
         }

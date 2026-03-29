@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-sing System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

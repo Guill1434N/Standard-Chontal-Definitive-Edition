@@ -98,5 +98,15 @@ namespace WindowsFormsApp1
                 InitializeComponent();
             }
         }
+
+        private void btnCompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Gestion_de_Compras());
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioEnPanel(new Gestion_de_Usuarios());
+        }
     }
 }

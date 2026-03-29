@@ -147,6 +147,9 @@
     <EmbeddedResource Include="Gestion de Ventas.resx">
       <DependentUpon>Gestion de Ventas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestionar Clientes.resx">
+      <DependentUpon>Gestionar Clientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestionar Proveedores.resx">
       <DependentUpon>Gestionar Proveedores.cs</DependentUpon>
     </EmbeddedResource>

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\nuevo producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:nuevo producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\gestionar proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:gestionar proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\recuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:recuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\recuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:recuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|c:\\users\\crisl\\downloads\\nueva carpeta\\standard-chontal-definitive-edition\\nuevo producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8E6017A-3FDC-49AB-AF0E-CF2533E29ADC}|StandardChontal1.csproj|solutionrelative:nuevo producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,13 +35,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Gestionar Proveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Gestionar Proveedores.cs",
-              "RelativeDocumentMoniker": "Gestionar Proveedores.cs",
-              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Gestionar Proveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Gestionar Proveedores.cs [Dise\u00F1o]",
+              "Title": "Compras.cs",
+              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Compras.cs",
+              "RelativeDocumentMoniker": "Compras.cs",
+              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Compras.cs",
+              "RelativeToolTip": "Compras.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T15:33:54.096Z",
+              "WhenOpened": "2026-05-08T20:17:46.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Compras.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Compras.cs",
+              "RelativeDocumentMoniker": "Compras.cs",
+              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Compras.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Compras.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:59:40.788Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
@@ -61,46 +66,8 @@
               "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Recuperacion.cs [Dise\u00F1o]",
               "RelativeToolTip": "Recuperacion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T14:58:39.053Z",
+              "WhenOpened": "2026-05-08T19:06:58.114Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Nuevo Producto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Nuevo Producto.cs",
-              "RelativeDocumentMoniker": "Nuevo Producto.cs",
-              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Nuevo Producto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Nuevo Producto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T21:19:21.754Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Recuperacion.cs",
-              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Recuperacion.cs",
-              "RelativeDocumentMoniker": "Recuperacion.cs",
-              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Recuperacion.cs",
-              "RelativeToolTip": "Recuperacion.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T15:12:12.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Nuevo Producto.cs",
-              "DocumentMoniker": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Nuevo Producto.cs",
-              "RelativeDocumentMoniker": "Nuevo Producto.cs",
-              "ToolTip": "C:\\Users\\crisl\\Downloads\\Nueva carpeta\\Standard-Chontal-Definitive-Edition\\Nuevo Producto.cs",
-              "RelativeToolTip": "Nuevo Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T21:20:18.426Z",
-              "EditorCaption": ""
             }
           ]
         }

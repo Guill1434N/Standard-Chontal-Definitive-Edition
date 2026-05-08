@@ -46,7 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compras.cs" />
+    <Compile Include="Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Editar Producto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +150,9 @@
     <Compile Include="Recuperacion.Designer.cs">
       <DependentUpon>Recuperacion.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Ventas.resx">
       <DependentUpon>Gestion de Ventas.cs</DependentUpon>
     </EmbeddedResource>

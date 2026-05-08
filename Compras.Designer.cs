@@ -281,7 +281,7 @@
             this.button1.BackColor = System.Drawing.Color.Orange;
             this.button1.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(220, 435);
+            this.button1.Location = new System.Drawing.Point(209, 435);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 38);
             this.button1.TabIndex = 15;

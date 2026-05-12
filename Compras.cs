@@ -12,6 +12,9 @@ namespace WindowsFormsApp1
 {
     public partial class Compras: Form
     {
+        int desplazamientoY = 0;
+        bool subiendo = true;
+        int limiteFlote = 15;
         public Compras()
         {
             InitializeComponent();
@@ -55,6 +58,24 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void timerAnimation_Tick(object sender, EventArgs e)
+        {
+            {
+                if (subiendo)
+                {
+                    desplazamientoY--;
+                    if (desplazamientoY <= -limiteFlote) subiendo = false;
+                }
+                else
+                {
+                    desplazamientoY++;
+                    if (desplazamientoY >= 0) subiendo = true;
+                }
+
+                this.Invalidate();
+            }
         }
     }
 }

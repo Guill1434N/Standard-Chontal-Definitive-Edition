@@ -25,13 +25,14 @@ namespace WindowsFormsApp1
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            // validamos que no este vacio el nommbre (minimo esto)
+            // validamos que no este vacio el nommbre (minimo esto)  
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text))
             {
-                MessageBox.Show("El nombre no puede ir vacio");
+                MessageBox.Show("Los campos no pueden ir vacios");
                 label.Focus();
 
-                if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text)) ;
+                if (string.IsNullOrWhiteSpace(txtNombre.Text)) txtNombre.Focus();
+                else txtTelefono.Focus();
 
                 return;
 
@@ -63,7 +64,7 @@ namespace WindowsFormsApp1
             if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar))
             {
                 e.Handled = true; // "Bloquea" el número si intentan escribirlo
-                MessageBox.Show("Bro, en el nombre solo van letras.", "Atención");
+                MessageBox.Show(" Solo Letras", "Atención");
             }
         }
 
@@ -73,11 +74,26 @@ namespace WindowsFormsApp1
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 e.Handled = true; // "Bloquea" la letra si intentan escribirla
-                MessageBox.Show("Aquí solo van números, bro.", "Atención");
+                MessageBox.Show("Solo Numeros.", "Atención");
             }
         }
 
         private void Gestionar_Clientes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }

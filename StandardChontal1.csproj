@@ -145,6 +145,12 @@
     <Compile Include="Recuperacion.Designer.cs">
       <DependentUpon>Recuperacion.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Editar Usuario.resx">
+      <DependentUpon>Editar Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion de Usuarios.resx">
+      <DependentUpon>Gestion de Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion de Ventas.resx">
       <DependentUpon>Gestion de Ventas.cs</DependentUpon>
     </EmbeddedResource>
